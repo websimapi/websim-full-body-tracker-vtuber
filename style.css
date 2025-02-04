@@ -1,0 +1,38 @@
+/* Reset and base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Initial background color */
+  background-color: #222;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Fullscreen canvas that sits on top */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* So that interactions (if any) pass through */
+}
+
+/* Style for the instruction panel */
+#instructions {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+#instructions h1 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+#instructions p {
+  margin: 5px 0;
+  font-size: 14px;
+}
