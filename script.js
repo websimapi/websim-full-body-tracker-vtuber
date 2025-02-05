@@ -1,3 +1,6 @@
+// Ensure that the global ml5 library is accessible within this module.
+const ml5 = window.ml5;
+
 // Main script for the Full Body Tracker VTuber
 
 // Global variables
